@@ -8,4 +8,9 @@
 
 #import <Foundation/Foundation.h>
 
+#if __has_include(<DarklyEventSource/LDEventSource.h>)
 #import <DarklyEventSource/LDEventSource.h>
+#else
+// Imported via SPM.
+#import "LDEventSource.h"
+#endif
