@@ -26,13 +26,6 @@ let package = Package(
                 "Podfile",
                 "Podfile.lock",
             ],
-            sources: [
-                "LDEventSource/LDEventParser.m",
-                "LDEventSource/LDEventSource.m",
-                "LDEventSource/LDEventStringAccumulator.m",
-                "LDEventSource/NSArray+LDEventSource.m",
-                "LDEventSource/NSString+LDEventSource.m",
-            ],
             publicHeadersPath: "LDEventSource"
         )
     ]
